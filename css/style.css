@@ -1,0 +1,34 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+html {
+    font-size: 62.5%;
+    /*! 1rem = 10px;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --primary: white;
+    --secondary: #000;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-C {
+    justify-content: center;
+}
+
+.align-C {
+    align-items: center;
+}
