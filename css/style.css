@@ -32,3 +32,150 @@ html {
 .align-C {
     align-items: center;
 }
+
+*:not(i) {
+    font-family: poppins;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3rem 5rem;
+    backdrop-filter: blur(.2rem);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+nav a {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+nav a#logo>img {
+    color: #000000;
+    font-weight: 700;
+    height: 5rem;
+    width: 7rem;
+}
+
+nav ul a {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+nav ul a:hover {
+    border-bottom: 2px solid var(--primary);
+}
+
+section#home {
+    height: 200vh;
+    display: grid;
+    place-items: center;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#ham-menu {
+    display: none;
+}
+
+nav ul.active {
+    left: 0;
+    /* filter: blur(2rem); */
+    z-index: 2;
+}
+
+/* nav ul.active::after {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem); 
+z-index: 1;
+}
+
+nav ul li,
+nav ul li a {
+    z-index: 2;
+}
+
+*/
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    header {
+        padding: 2.2rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+
+    #ham-menu {
+        display: block;
+        color: var(--primary);
+    }
+
+    nav a#logo,
+    #ham-menu {
+        font-size: 3.2rem;
+    }
+
+    nav ul {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        left: -100vw;
+        top: 73.6px;
+        width: 100vw;
+        height: calc(100vh - 73.6px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: 1s;
+        gap: 0;
+        /* filter: blur(.2rem); */
+        backdrop-filter: blur(2rem);
+        z-index: 2;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 575px) {
+    html {
+        font-size: 46.87%;
+    }
+
+    header {
+        padding: 2rem 3rem;
+    }
+
+    nav ul {
+        top: 65.18px;
+        height: calc(100vh - 65.18px);
+        /* backdrop-filter: blur(2rem); */
+        z-index: 2;
+    }
+}
