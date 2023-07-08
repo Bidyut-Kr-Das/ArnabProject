@@ -53,17 +53,11 @@ body {
 .align-C {
     align-items: center;
 }
-<<<<<<< Updated upstream
 
-<<<<<<< Updated upstream
-/*////////////      FOOTER CSS      START       \\\\\\\\\\\\*/
-=======
-/*////////////      FOOTER CSS      START       \\\\\\\\\\\\
->>>>>>> Stashed changes
-.footer_main{
-=======
+/* ////////////      FOOTER CSS      START       \\\\\\\\\\\\ */
+
 .footer_main {
->>>>>>> Stashed changes
+
     gap: 2rem;
 }
 
@@ -99,19 +93,16 @@ a:hover {
 section.footer .left {
     width: 50vw;
     height: 30vh;
-<<<<<<< Updated upstream
-    font-size:21px;
-    line-height:32px;
-    font-weight:100;
-    
-    position: absolute;
-    top: 6rem;
-    left: 0;
-=======
     font-size: 21px;
     line-height: 32px;
     font-weight: 100;
->>>>>>> Stashed changes
+
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
 
 }
 
@@ -132,11 +123,6 @@ section.footer .right {
     top: 0;
     position: absolute;
     text-align: left;
-<<<<<<< Updated upstream
-    
-=======
-
->>>>>>> Stashed changes
 }
 
 section.footer .right .controls {
@@ -147,11 +133,8 @@ section.footer .right .controls {
 
 }
 
-<<<<<<< Updated upstream
-section.footer .right .controls ::placeholder{
-=======
+
 section.footer .right .controls ::placeholder {
->>>>>>> Stashed changes
     text-transform: uppercase;
     font-weight: 380;
     font-size: 1.7rem;
@@ -159,39 +142,34 @@ section.footer .right .controls ::placeholder {
 
 section.footer .right .controls label {
     color: #ddd;
-<<<<<<< Updated upstream
-    font-size:18px;
-    line-height:2px;
-    font-weight:100px;
-    text-transform:uppercase;
-    
-=======
+    font-size: 18px;
+    line-height: 2px;
+    font-weight: 100px;
+    text-transform: uppercase;
+
     font-size: 18px;
     line-height: 24px;
     font-weight: 100;
     text-transform: uppercase;
 
->>>>>>> Stashed changes
 }
 
 section.footer .right .form-control {
-<<<<<<< Updated upstream
-    background:transparent !important;
-    border:none;
-    border-bottom:3px solid transparent;
-    border:1px solid #ddd;
-    border-radius:6px;
-    outline:none;
-    box-shadow:none;
-    height:46px;
+    background: transparent !important;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: none;
+    height: 46px;
     width: 100%;
-    font-size:21px;
-    line-height:32px;
-    font-weight:100;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
 
-    -webkit-transition:border-color .3s ease-out;
-    transition:border-color .3s ease-out;
-=======
+    -webkit-transition: border-color .3s ease-out;
+    transition: border-color .3s ease-out;
     background: transparent !important;
     border: none;
     border-bottom: 3px solid transparent;
@@ -207,7 +185,6 @@ section.footer .right .form-control {
     /* padding-left:50rem; */
     -webkit-transition: border-color .3s ease-out;
     transition: border-color .3s ease-out;
->>>>>>> Stashed changes
 }
 
 section.footer .right .form-control:hover {
@@ -220,24 +197,13 @@ section.footer .right .form-control:hover {
     position:relative;
     width: 35rem;
 } */
-/*
+
 section.footer .right .controls fa-envelope {
     color: #ddd;
 }
 
 section.footer .right textarea.form-control {
     resize: none;
-<<<<<<< Updated upstream
-    min-height: 60%;
-    max-height: 100%;
-    max-width:100%;
-    min-width:100%;
-    font-size:21px;
-    line-height:32px;
-    padding-top:10px;
-    border:1px solid #ddd;
-    border-radius:6px;
-=======
     height: auto;
     max-width: 100%;
     min-width: 100%;
@@ -246,37 +212,24 @@ section.footer .right textarea.form-control {
     padding-top: 10px;
     border: 1px solid #ddd;
     border-radius: 6px;
->>>>>>> Stashed changes
 }
 
 section.footer .right .error-message {
-<<<<<<< Updated upstream
-
-    position:absolute;
-    top:-30px;
-
-    font-size:14px;
-    font-weight:300;
-    color:#ff0000;
-    z-index:10;
-}*/
-/*** Footer ***/
-section.footerr{
-    top: 0;
-}
-<<<<<<< Updated upstream
-=======
-=======
-    /* padding:5px 0; */
     position: absolute;
     top: -30px;
-    /* right:0; */
+
     font-size: 14px;
     font-weight: 300;
     color: #ff0000;
     z-index: 10;
 }
->>>>>>> Stashed changes
+
+/*** Footer ***/
+section.footerr {
+    top: 0;
+}
+
+
 
 *:not(i) {
     font-family: poppins;
@@ -607,10 +560,10 @@ section>.arrowbuttons {
         height: calc(100vh - 65.18px);
         /* backdrop-filter: blur(2rem); */
     }
-<<<<<<< Updated upstream
+
+
 }
 
-=======
 .footer {
     padding-top: 9rem;
     background:
@@ -687,6 +640,7 @@ section>.arrowbuttons {
 .footer .footer-menu a:hover {
     color: var(--secondary);
 }
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -721,7 +675,10 @@ section>.arrowbuttons {
     font-weight: normal;
     border-radius: 50px;
 }
->>>>>>> Stashed changes
-=======
+
+
+.textArea1 {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
 }
->>>>>>> Stashed changes
