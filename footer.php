@@ -1,4 +1,4 @@
 </body>
-<script src="../js/script.js" defer></script>
+<script src="js/script.js" defer></script>
 
 </html>
