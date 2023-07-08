@@ -25,25 +25,27 @@ body {
 :root {
     --primary: white;
     --secondary: #000;
-    --buttonColor: #927ffc;
-    --deep:#302e5e;
-    --light:#;
+    --gradiantLeft: #523ca2;
+    --gradianRight: #3f42d1;
 
 }
 
 .flex {
     display: flex;
 }
-.flex-1{
+
+.flex-1 {
     flex: 1;
 }
 
 .justify-C {
     justify-content: center;
 }
+
 .justify-SE {
     justify-content: space-evenly;
 }
+
 .justify-SB {
     justify-content: space-between;
 }
@@ -53,39 +55,51 @@ body {
 }
 <<<<<<< Updated upstream
 
+<<<<<<< Updated upstream
 /*////////////      FOOTER CSS      START       \\\\\\\\\\\\*/
 =======
 /*////////////      FOOTER CSS      START       \\\\\\\\\\\\
 >>>>>>> Stashed changes
 .footer_main{
+=======
+.footer_main {
+>>>>>>> Stashed changes
     gap: 2rem;
 }
-section.footer{
+
+section.footer {
     background-color: #696969;
     height: 47rem;
 }
-section.footer .right{
+
+section.footer .right {
     width: 50vw;
 
 }
+
 section.footer {
     text-transform: uppercase;
     text-align: center;
     color: var(--primary);
     font-size: 3rem;
 }
-section.footer .right .text h1,a{
+
+section.footer .right .text h1,
+a {
     color: var(--primary);
     transition: all 0.2s ease;
 }
-section.footer .right .text h1,a:hover{
+
+section.footer .right .text h1,
+a:hover {
     color: var(--secondary);
     transition: all 0.3s ease;
 }
 
-section.footer .left{
+section.footer .left {
     width: 50vw;
     height: 30vh;
+<<<<<<< Updated upstream
     font-size:21px;
     line-height:32px;
     font-weight:100;
@@ -93,26 +107,38 @@ section.footer .left{
     position: absolute;
     top: 6rem;
     left: 0;
+=======
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
+>>>>>>> Stashed changes
 
 }
-section.footer .left .text{
+
+section.footer .left .text {
     flex-direction: column;
     height: 100%;
     gap: 4rem;
 }
-section.footer .left .text a{
-  
+
+section.footer .left .text a {
+
     text-decoration: none;
 }
 
-section.footer .right{
+section.footer .right {
     flex-direction: column;
     right: 0;
     top: 0;
     position: absolute;
     text-align: left;
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
 }
+
 section.footer .right .controls {
     height: 7rem;
     margin-top: 0.8rem;
@@ -121,20 +147,35 @@ section.footer .right .controls {
 
 }
 
+<<<<<<< Updated upstream
 section.footer .right .controls ::placeholder{
+=======
+section.footer .right .controls ::placeholder {
+>>>>>>> Stashed changes
     text-transform: uppercase;
     font-weight: 380;
     font-size: 1.7rem;
 }
-section.footer .right .controls label{
+
+section.footer .right .controls label {
     color: #ddd;
+<<<<<<< Updated upstream
     font-size:18px;
     line-height:2px;
     font-weight:100px;
     text-transform:uppercase;
     
+=======
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+
+>>>>>>> Stashed changes
 }
+
 section.footer .right .form-control {
+<<<<<<< Updated upstream
     background:transparent !important;
     border:none;
     border-bottom:3px solid transparent;
@@ -150,11 +191,30 @@ section.footer .right .form-control {
 
     -webkit-transition:border-color .3s ease-out;
     transition:border-color .3s ease-out;
+=======
+    background: transparent !important;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: none;
+    height: 56px;
+    width: 100%;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
+    /* padding-left:50rem; */
+    -webkit-transition: border-color .3s ease-out;
+    transition: border-color .3s ease-out;
+>>>>>>> Stashed changes
 }
-section.footer .right .form-control:hover{
-    border:1px solid rebeccapurple;
+
+section.footer .right .form-control:hover {
+    border: 1px solid rebeccapurple;
     transition: all 0.2s ease;
 }
+
 /* section.footer .right .form-group{
 
     position:relative;
@@ -164,8 +224,10 @@ section.footer .right .form-control:hover{
 section.footer .right .controls fa-envelope {
     color: #ddd;
 }
+
 section.footer .right textarea.form-control {
     resize: none;
+<<<<<<< Updated upstream
     min-height: 60%;
     max-height: 100%;
     max-width:100%;
@@ -175,8 +237,20 @@ section.footer .right textarea.form-control {
     padding-top:10px;
     border:1px solid #ddd;
     border-radius:6px;
+=======
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 21px;
+    line-height: 32px;
+    padding-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+>>>>>>> Stashed changes
 }
+
 section.footer .right .error-message {
+<<<<<<< Updated upstream
 
     position:absolute;
     top:-30px;
@@ -192,6 +266,17 @@ section.footerr{
 }
 <<<<<<< Updated upstream
 =======
+=======
+    /* padding:5px 0; */
+    position: absolute;
+    top: -30px;
+    /* right:0; */
+    font-size: 14px;
+    font-weight: 300;
+    color: #ff0000;
+    z-index: 10;
+}
+>>>>>>> Stashed changes
 
 *:not(i) {
     font-family: poppins;
@@ -522,6 +607,7 @@ section>.arrowbuttons {
         height: calc(100vh - 65.18px);
         /* backdrop-filter: blur(2rem); */
     }
+<<<<<<< Updated upstream
 }
 
 =======
@@ -634,5 +720,8 @@ section>.arrowbuttons {
     justify-content: center;
     font-weight: normal;
     border-radius: 50px;
+}
+>>>>>>> Stashed changes
+=======
 }
 >>>>>>> Stashed changes
