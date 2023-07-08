@@ -13,6 +13,7 @@ body {
 }
 
 * {
+    font-family: poppins;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -50,13 +51,18 @@ body {
 .align-C {
     align-items: center;
 }
+<<<<<<< Updated upstream
 
 /*////////////      FOOTER CSS      START       \\\\\\\\\\\\*/
+=======
+/*////////////      FOOTER CSS      START       \\\\\\\\\\\\
+>>>>>>> Stashed changes
 .footer_main{
     gap: 2rem;
 }
 section.footer{
     background-color: #696969;
+    height: 47rem;
 }
 section.footer .right{
     width: 50vw;
@@ -84,9 +90,15 @@ section.footer .left{
     line-height:32px;
     font-weight:100;
     
+    position: absolute;
+    top: 6rem;
+    left: 0;
+
 }
 section.footer .left .text{
     flex-direction: column;
+    height: 100%;
+    gap: 4rem;
 }
 section.footer .left .text a{
   
@@ -95,26 +107,30 @@ section.footer .left .text a{
 
 section.footer .right{
     flex-direction: column;
-    position: relative;
+    right: 0;
+    top: 0;
+    position: absolute;
     text-align: left;
-   
+    
 }
 section.footer .right .controls {
-    padding-bottom: 2px;
-    /* height: 8rem; */
+    height: 7rem;
+    margin-top: 0.8rem;
     margin-left: 24rem;
     width: 50%;
+
 }
+
 section.footer .right .controls ::placeholder{
     text-transform: uppercase;
-    font-weight: 300;
-    font-size: 2rem;
+    font-weight: 380;
+    font-size: 1.7rem;
 }
 section.footer .right .controls label{
     color: #ddd;
     font-size:18px;
-    line-height:24px;
-    font-weight:100;
+    line-height:2px;
+    font-weight:100px;
     text-transform:uppercase;
     
 }
@@ -126,12 +142,12 @@ section.footer .right .form-control {
     border-radius:6px;
     outline:none;
     box-shadow:none;
-    height:56px;
+    height:46px;
     width: 100%;
     font-size:21px;
     line-height:32px;
     font-weight:100;
-    /* padding-left:50rem; */
+
     -webkit-transition:border-color .3s ease-out;
     transition:border-color .3s ease-out;
 }
@@ -144,12 +160,14 @@ section.footer .right .form-control:hover{
     position:relative;
     width: 35rem;
 } */
+/*
 section.footer .right .controls fa-envelope {
     color: #ddd;
 }
 section.footer .right textarea.form-control {
     resize: none;
-    height:auto;
+    min-height: 60%;
+    max-height: 100%;
     max-width:100%;
     min-width:100%;
     font-size:21px;
@@ -159,15 +177,20 @@ section.footer .right textarea.form-control {
     border-radius:6px;
 }
 section.footer .right .error-message {
-    /* padding:5px 0; */
+
     position:absolute;
     top:-30px;
-    /* right:0; */
+
     font-size:14px;
     font-weight:300;
     color:#ff0000;
     z-index:10;
+}*/
+/*** Footer ***/
+section.footerr{
+    top: 0;
 }
+<<<<<<< Updated upstream
 =======
 
 *:not(i) {
@@ -501,3 +524,115 @@ section>.arrowbuttons {
     }
 }
 
+=======
+.footer {
+    padding-top: 9rem;
+    background:
+        url(../img/map.png);
+    background-position:
+        center center;
+    background-repeat: no-repeat;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(256, 256, 256, .1);
+    border-radius: 40px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: var(--secondary);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+.footer .copyright a:hover,
+.footer .footer-menu a:hover {
+    color: var(--secondary);
+}
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+>>>>>>> Stashed changes
