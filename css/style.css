@@ -245,9 +245,9 @@ section.footerr {
 header {
     position: fixed;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: white;
     padding: 1.5rem 5rem;
-    backdrop-filter: blur(.2rem);
+    /* backdrop-filter: blur(.2rem);k */
     z-index: 1000;
     box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .3);
 }
@@ -278,10 +278,14 @@ nav a#logo>img {
 }
 
 nav ul a {
+    margin-top: 2rem;
     height: 4rem;
     color: var(--gradianRight);
     font-weight: 600;
     font-size: 2rem;
+    line-height: 5rem;
+    /* mix-blend-mode: difference; */
+    z-index: 1001;
     /* transition: .2s; */
 }
 
@@ -289,11 +293,12 @@ nav ul a>input {
     height: 4rem;
     width: 15rem;
     border-radius: 3rem;
-    background-image: linear-gradient(to bottom right, var(--gradiantLeft), var(--gradianRight), var(--gradianRight), #fff);
+    background-image: linear-gradient(to bottom right, var(--gradiantLeft), var(--gradianRight), var(--gradianRight));
     font-size: 1.5rem;
     color: white;
     border: none;
     font-weight: bold;
+    line-height: 3rem;
     /* padding: .5rem; */
 }
 
@@ -718,7 +723,7 @@ section>.arrowbuttons {
     text-align: center;
     flex-direction: column;
     gap: 2rem;
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(5rem);
     overflow-y: hidden;
 }
 
@@ -731,7 +736,7 @@ section>.arrowbuttons {
 
 .textArea1>.heading {
     font-size: 8rem;
-    background-image: linear-gradient(to bottom, var(--gradianRight), var(--gradiantLeft));
+    background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -741,7 +746,8 @@ section>.arrowbuttons {
 
 .textArea1>.heading4 {
     font-size: 6rem;
-    background-image: linear-gradient(to bottom, var(--gradianRight), var(--gradiantLeft));
+    /* background-image: linear-gradient(to bottom, var(--gradianRight), var(--gradiantLeft)); */
+    background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -770,7 +776,7 @@ section>.arrowbuttons {
 
 #circle1 {
     position: absolute;
-    top: 3rem;
+    top: 8rem;
     right: -3rem;
     background: var(--gradiantLeft);
     width: 200px;
@@ -824,10 +830,10 @@ section>.arrowbuttons {
     overflow-y: hidden;
 }
 
-.active {
+/* .active {
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+} */
 
 @-webkit-keyframes slide-in-right {
     0% {
@@ -856,6 +862,44 @@ section>.arrowbuttons {
         opacity: 1;
     }
 }
+
+.main--services {
+    position: relative;
+    margin-top: 9rem;
+    height: calc(100vh - 9rem);
+    overflow: hidden;
+
+}
+
+.bg--svg {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+.services--tittle {
+    width: 100%;
+    text-align: center;
+    height: 20rem;
+    padding: 10rem;
+    font-size: 5rem;
+    font-weight: bolder;
+    letter-spacing: .3rem;
+    color: white;
+    text-decoration: underline;
+    /* background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef, #dee2e6, #ced4da);
+    background-clip: text;
+    -webkit-background-clip: text; */
+
+}
+
+.bg--svg>svg {
+    width: 100%;
+    transform: scaleX(1.8);
+
+}
+
+
 
 
 @media only screen and (max-width:1024px) {
@@ -919,5 +963,3 @@ section>.arrowbuttons {
         left: 0;
     }
 }
-
-@media only screen and (max-width) {}

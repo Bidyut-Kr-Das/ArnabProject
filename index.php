@@ -4,8 +4,9 @@ include("nav.php");
 
 ?>
 <div class="main">
+    
 
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" style="position:absolute;" class="carousel slide" data-ride="carousel" data-interval="1" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" id="slide0">
                 <div class="textArea1">

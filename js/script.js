@@ -12,6 +12,9 @@ navLinks.forEach((navLinks) => {
     hamMenuIcon.classList.toggle("fa-times");
   });
 });
+
+// $(".carousel").carousel("cycle");
+
 // const slider = document.querySelector(".slider");
 const arrowBtnDiv = document.querySelector(".arrowbuttons");
 const leftButton = document.querySelector(".carousel-control-prev");
@@ -26,25 +29,26 @@ const check = () => {
   }
 };
 const slider = () => {
-  check();
-  // let activeSlide = document.querySelector(`#slide${counter}`);
-  const deactiveSlide = document.querySelectorAll(".carousel-item");
-  // console.log(deactiveSlide);
-  deactiveSlide.forEach((slide, index) => {
-    index === counter
-      ? slide.classList.add("active")
-      : slide.classList.remove("active");
-  });
-  counter++;
+  $(".carousel").carousel("next");
+  // check();
+  // // let activeSlide = document.querySelector(`#slide${counter}`);
+  // const deactiveSlide = document.querySelectorAll(".carousel-item");
+  // // console.log(deactiveSlide);
+  // deactiveSlide.forEach((slide, index) => {
+  //   index === counter
+  //     ? slide.classList.add("active")
+  //     : slide.classList.remove("active");
+  // });
+  // counter++;
 };
 
-const interval = setInterval(slider, 4000);
+const interval = setInterval(slider, 3500);
 
-leftButton.addEventListener("click", ()=>{
-  counter--;
-  slider();
-});
-rightButton.addEventListener("click", slider);
+// leftButton.addEventListener("click", () => {
+//   counter--;
+//   slider();
+// });
+// rightButton.addEventListener("click", slider);
 
 // const slide = () => {
 //   check();
