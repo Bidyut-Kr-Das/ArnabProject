@@ -7,16 +7,16 @@ include("header.php");
         <i class="fas fa-bars" id="ham-menu"></i>
         <ul id="nav-bar">
             <li>
-                <a href="#home">Home</a>
+                <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="#about">About</a>
+                <a href="aboutUs.php">About</a>
             </li>
             <li>
-                <a href="#services">Services</a>
+                <a href="services.php">Services</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="contactUs.php"><input type="button" value="Contact Us"></a>
             </li>
         </ul>
     </nav>
