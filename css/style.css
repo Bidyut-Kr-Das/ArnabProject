@@ -864,7 +864,9 @@ section>.arrowbuttons {
 }
 
 .main--services {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     margin-top: 9rem;
     height: calc(100vh - 9rem);
     overflow: hidden;
@@ -874,38 +876,60 @@ section>.arrowbuttons {
 .bg--svg {
     width: 100vw;
     position: absolute;
-    top: 0;
+    top: 9rem;
 }
 
 .services--tittle {
     width: 100%;
     text-align: center;
-    /* height: 20rem; */
+    height: 20rem;
     padding: 10rem;
     /* margin-top: 10rem; */
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: bolder;
     letter-spacing: .1rem;
-    color: transparent;
+    color: white;
     /* text-decoration: underline; */
     /* background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef, #dee2e6, #ced4da);*/
     background-clip: text;
     -webkit-background-clip: text;
     overflow-y: hidden;
-    background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8);
+    /* background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8); */
+    /* background-image: linear-gradient(to bottom, #000000, #fca311, #fca311, #e5e5e5, #ffffff); */
     pointer-events: none;
+}
+
+.services--desc {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 100%;
+    padding-inline: 5rem;
+    line-height: 4rem;
+    overflow: hidden;
+    /* background-color: rgba(255, 255, 255, .7); */
+    /* border-top: .2rem solid black;
+    border-bottom: .2rem solid black; */
+    mix-blend-mode: darken;
+
 }
 
 
 
 .service--body {
-    position: absolute;
+    /* position: absolute;
     top: 9rem;
-    left: 0;
-    backdrop-filter: blur(.5rem);
-    background-color: rgba(255, 255, 255, .2);
+    left: 0; */
+    /* backdrop-filter: blur(.5rem);
+    background-color: rgba(255, 255, 255, .2); */
     height: calc(100vh + 10rem);
     width: 100%;
+    display: flex;
+    margin-top: 9rem;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 8rem;
 }
 
 .bg--svg>svg {
@@ -919,17 +943,32 @@ section>.arrowbuttons {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    height: 30rem;
+    /* margin-top: 10rem; */
 }
 
-.card {
+.card--services>.card {
     height: 25rem;
     width: 100rem;
+    border: none;
+    border-top: .1rem solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    border-radius: 2rem;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .gif--image,
 .gif--image>img {
     height: 25rem;
 
+}
+
+.card--services .card-title {
+    font-size: 4rem;
+    font-weight: bolder;
+    background-color: ;
 }
 
 
