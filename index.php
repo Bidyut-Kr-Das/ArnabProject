@@ -79,8 +79,7 @@ include("nav.php");
         </button>
     </div>
     <div id="circle1"></div>
-    <div id="circle2"></div>
-    <div id="circle3"></div>
+    
 </div>
 <?php
 include("footer.php");
