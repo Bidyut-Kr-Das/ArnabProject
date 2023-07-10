@@ -756,10 +756,10 @@ section>.arrowbuttons {
 
 .textArea1>.heading {
     font-size: 8rem;
-    background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    /* background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8); */
+    color: #523ca2;
+    /* background-clip: text;
+    -webkit-background-clip: text; */
     font-weight: bolder;
     margin-top: -14rem;
 }
@@ -767,10 +767,10 @@ section>.arrowbuttons {
 .textArea1>.heading4 {
     font-size: 6rem;
     /* background-image: linear-gradient(to bottom, var(--gradianRight), var(--gradiantLeft)); */
-    background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    /* background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8); */
+    color: #523ca2;
+    /* background-clip: text;
+    -webkit-background-clip: text; */
     font-weight: bolder;
     margin-top: -14rem;
 }
@@ -900,8 +900,8 @@ section>.arrowbuttons {
 
     #circle1 {
         /* display: none; */
-        height: 10rem;
-        width: 10rem;
+        height: 100rem;
+        width: 100rem;
     }
 
     #circle2 {
@@ -936,8 +936,8 @@ section>.arrowbuttons {
 
     #circle1 {
         /* display: none; */
-        height: 10rem;
-        width: 10rem;
+        height: 100rem;
+        width: 100rem;
     }
 
     #circle2 {
