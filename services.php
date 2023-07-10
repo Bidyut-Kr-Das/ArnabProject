@@ -18,23 +18,120 @@ include("nav.php");
         Experience excellence with our expertise.
         Services we offer
     </h5>
+</div>
+<div class="card--services--body">
+
+
     <div class="card--services">
         <div class="card mb-3" style="overflow:hidden;">
             <div class="row no-gutters" style="overflow:hidden;">
                 <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/automation testing card.gif" class="card-img" alt="...">
+                    <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title" style="overflow:hidden;">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title" style="overflow:hidden;">Software Development</h5>
+                        <div class="twist--box"></div>
+                        <p class="card-text">Elegant custom software development for
+                            unparalleled innovation and operational excellence.</p>
+                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="card--services">
+        <div class="card mb-3" style="overflow:hidden;">
+            <div class="row no-gutters" style="overflow:hidden;">
+                <div class="col-md-4 gif--image">
+                    <img src="images/card gifs/Software testing card.gif" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="overflow:hidden;"> Software Testing</h5>
+                        <div class="twist--box"></div>
+                        <p class="card-text">Unsurpassed software testing for perfection and
+                            user-centric excellence..</p>
+                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card--services">
+        <div class="card mb-3" style="overflow:hidden;">
+            <div class="row no-gutters" style="overflow:hidden;">
+                <div class="col-md-4 gif--image">
+                    <img src="images/card gifs/digital marketing card.gif" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="overflow:hidden;"> Digital Marketing</h5>
+                        <div class="twist--box"></div>
+                        <p class="card-text">Unrivalled digital marketing for unparalleled brand
+                            visibility and exceptional lead generation.</p>
+                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card--services">
+        <div class="card mb-3" style="overflow:hidden;">
+            <div class="row no-gutters" style="overflow:hidden;">
+                <div class="col-md-4 gif--image">
+                    <img src="images/card gifs/mock test card.gif" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="overflow:hidden; font-size:3.5rem;"> Mock Tests for Class 9 to 12</h5>
+                        <div class="twist--box"></div>
+                        <p class="card-text">Revolutionary mock tests for unparalleled exam
+                            preparation and academic excellence..</p>
+                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card--services">
+        <div class="card mb-3" style="overflow:hidden;">
+            <div class="row no-gutters" style="overflow:hidden;">
+                <div class="col-md-4 gif--image">
+                    <img src="images/card gifs/industrial training card.gif" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="overflow:hidden;">Industrial Training</h5>
+                        <div class="twist--box"></div>
+                        <p class="card-text">Empowering IT professionals with cutting-edge
+                            industrial training programs..</p>
+                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card--services">
+        <div class="card mb-3" style="overflow:hidden;">
+            <div class="row no-gutters" style="overflow:hidden;">
+                <div class="col-md-4 gif--image">
+                    <img src="images/card gifs/placement card.gif" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="overflow:hidden;">Placement & Internship Assistant</h5>
+                        <div class="twist--box"></div>
+                        <p class="card-text">Empowering carrer with personalised placement and internship assistant..</p>
+                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+
 <?php
 include("footer.php");
 ?>
