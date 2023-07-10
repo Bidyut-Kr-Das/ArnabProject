@@ -1,48 +1,49 @@
-
-<header>
-    <nav>
-        <a href="#home" id="logo">Site Logo</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Bar</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home" id="logo"><img src="" alt="LOGO" /></a>
         <i class="fas fa-bars" id="ham-menu"></i>
         <ul id="nav-bar">
-            <li class="active">
-                <a href="#" class="f-bl">Student</a>
-                <div class="sub-manu1">
-                    <ul>
-                        <li class="teacher-ul"><a href="#">By Class</a></li>
-                        <li class="teacher-ul"><a href="#">By Group</a></li>
-                        <li class="teacher-ul"><a href="#">By Subject</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="activeHover">
-                <a href="#">Teacher</a>
-                <div class="sub-manu1">
-                    <ul>
-                        <li class="teacher-ul"><a href="#">By Class</a></li>
-                        <li class="teacher-ul"><a href="#">By Group</a></li>
-                        <li class="teacher-ul"><a href="#">By Subject</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="activeHover">
-                <a href="#">Configuration</a>
-                <div class="sub-manu1">
-                    <ul>
-                        <li class="teacher-ul"><a href="classAdd.php">Add Class</a></li>
-                        <li class="teacher-ul"><a href="group_add.php">Add Group</a></li>
-                        <li class="teacher-ul"><a href="subjectAdd.php">Add Subject</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="activeHover">
-                <a href="#">Payment</a>
-            </li>
-            <li class="activeHover">
-                <a href="logout.php">Logout</a>
-            </li>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
-    </nav>
-</header>
-
-
-
+      </nav>
+    </header>
+    <section id="home">
+      <h1>Home Section</h1>
+    </section>
+    <!-- Script -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
