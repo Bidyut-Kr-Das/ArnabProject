@@ -529,7 +529,7 @@ section>.arrowbuttons {
 
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     html {
         font-size: 56.25%;
     }
@@ -923,10 +923,10 @@ section>.arrowbuttons {
     }
 }
 
-@media only screen and (max-width:991px) {
-    html {
+@media only screen and (max-width:992px) {
+    /* html {
         font-size: 40%;
-    }
+    } */
 
 
     #circle1 {
@@ -971,6 +971,8 @@ section>.arrowbuttons {
     text-align: center;
     height: 20rem;
     padding: 10rem;
+    padding-left: 0;
+    padding-right: 0;
     /* margin-top: 10rem; */
     font-size: 6rem;
     font-weight: bolder;
@@ -1029,8 +1031,11 @@ section>.arrowbuttons {
 
 .bg--svg>svg {
     /* height: 55rem; */
-    width: 100%;
+    width: 100vw;
+    /* height: 10rem; */
     transform: scaleX(1.8);
+    /* position: absolute;
+    top: 9rem; */
     /* background-color: #0466c8; */
 }
 
@@ -1058,6 +1063,7 @@ section>.arrowbuttons {
     cursor: pointer;
     overflow: hidden;
     transition: 0.3s;
+    position: relative;
 }
 
 .gif--image,
@@ -1110,4 +1116,180 @@ section>.arrowbuttons {
 /* .card--services .text-muted {
     color: orangered !important;
 } */
-@media only screen and (max-width:992px) {}
+#mockTest {
+    font-size: 3.5rem;
+}
+
+@media only screen and (max-width:1010px) {
+    .services--tittle {
+        font-size: 5.5rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .services--tittle {
+        font-size: 5.5rem;
+    }
+
+    .card--services>.card {
+        width: 90vw;
+
+    }
+
+    .card--services .card-title {
+        font-size: 3rem;
+    }
+
+    #mockTest {
+        font-size: 2.7rem;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .services--tittle {
+        font-size: 5rem;
+    }
+
+    .bg--svg {
+        top: 5rem;
+    }
+
+    .bg--svg>svg {
+        transform: scaleX(2);
+    }
+
+    .gif--image {
+        /* height: 10rem; */
+        width: 29%;
+    }
+
+    .row {
+        flex-wrap: nowrap !important;
+    }
+
+
+}
+
+@media only screen and (max-width:750px) {
+    .services--tittle {
+        font-size: 5rem;
+    }
+
+    .bg--svg {
+        top: 0rem;
+    }
+
+    .bg--svg>svg {
+        transform: none;
+    }
+
+    .card--services .card-body {
+        width: 50rem;
+    }
+
+    .card--services .card-title {
+        font-size: 3rem;
+    }
+
+    .card--services .card-text {
+        width: 95%;
+        /* font-size: 3rem; */
+    }
+
+
+
+}
+
+@media only screen and (max-width:600px) {
+    .services--tittle {
+        font-size: 5rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .bg--svg {
+        top: -5rem;
+    }
+
+    .bg--svg>svg {
+        transform: none;
+    }
+
+    .service--body {
+        gap: 7rem;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width:510px) {
+    .services--tittle {
+        font-size: 4rem;
+        /* font-size: 3rem; */
+        padding-left: 0;
+        padding-right: 0;
+        padding: 5rem;
+    }
+
+    .bg--svg {
+        top: -10rem;
+    }
+
+    .bg--svg>svg {
+        transform: none;
+    }
+
+    .gif--image {
+        display: none;
+    }
+
+    .service--body {
+        gap: 0;
+    }
+
+    .card--services .card-body {
+        width: 55rem;
+    }
+
+    .card--services .card-title {
+        font-size: 2.3rem;
+    }
+
+    .card--services .card-text {
+        width: 87%;
+        /* font-size: 3rem; */
+    }
+
+    .services--desc {
+        font-size: 2rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width:376px) {
+    .card--services .card-body {
+        width: 45rem;
+    }
+
+    .card--services .card-title {
+        font-size: 2.3rem;
+    }
+
+    .card--services .card-text {
+        width: 80%;
+        /* font-size: 3rem; */
+    }
+
+    #mockTest {
+        font-size: 2.4rem;
+    }
+
+    .bg--svg {
+        top: -12rem;
+    }
+}
