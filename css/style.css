@@ -690,7 +690,11 @@ section>.arrowbuttons {
 .footer .footer-menu a:hover {
     color: var(--secondary);
 }
-
+@media only screen and (max-width: 992px) {
+    .footer {
+        width: 80%;
+    }
+}
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -698,6 +702,7 @@ section>.arrowbuttons {
 
 .btn:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    
 }
 
 .btn-square {
