@@ -796,13 +796,18 @@ section>.arrowbuttons {
 
 #circle1 {
     position: absolute;
-    top: 8rem;
-    right: -3rem;
+    /* bottom: -190rem; */
+    right: 0;
+    left: 0;
     background: var(--gradiantLeft);
-    width: 200px;
-    height: 200px;
+    width: 100rem;
+    height: 100rem;
     border-radius: 50%;
     z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    /* transform: scaleX(2); */
+    transform: translateY(55%);
 }
 
 #circle2 {
