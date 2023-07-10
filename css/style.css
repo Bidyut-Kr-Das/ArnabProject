@@ -880,17 +880,32 @@ section>.arrowbuttons {
 .services--tittle {
     width: 100%;
     text-align: center;
-    height: 20rem;
+    /* height: 20rem; */
     padding: 10rem;
+    /* margin-top: 10rem; */
     font-size: 5rem;
     font-weight: bolder;
-    letter-spacing: .3rem;
-    color: white;
-    text-decoration: underline;
-    /* background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef, #dee2e6, #ced4da);
+    letter-spacing: .1rem;
+    color: transparent;
+    /* text-decoration: underline; */
+    /* background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef, #dee2e6, #ced4da);*/
     background-clip: text;
-    -webkit-background-clip: text; */
+    -webkit-background-clip: text;
+    overflow-y: hidden;
+    background-image: linear-gradient(to top, #001233, #001845, #002855, #023e7d, #0353a4, #0466c8);
+    pointer-events: none;
+}
 
+
+
+.service--body {
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    backdrop-filter: blur(.5rem);
+    background-color: rgba(255, 255, 255, .2);
+    height: calc(100vh + 10rem);
+    width: 100%;
 }
 
 .bg--svg>svg {
@@ -899,6 +914,23 @@ section>.arrowbuttons {
 
 }
 
+.card--services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 25rem;
+    width: 100rem;
+}
+
+.gif--image,
+.gif--image>img {
+    height: 25rem;
+
+}
 
 
 
