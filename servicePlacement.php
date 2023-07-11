@@ -10,118 +10,20 @@ include("nav.php");
 
 <div class="service--body">
 
-    <h3 class="services--tittle">Industrial Training</h3>
-    <h5 class="services--desc">At DSS, we offer industry-specific training programs
-        designed to equip individuals with the practical skills
-        and knowledge required for success in the IT
-        industry. Our comprehensive training modules cover
-        a wide range of topics, including:
+    <h3 class="services--tittle">Placement and Internship Assistance</h3>
+    <h5 class="services--desc">We understand the significance of bridging the gap
+        between education and employment. That's why, at
+        DSS, we provide placement and internship assistance
+        to all B-Tech, M-Tech, BCA, MCA, or any student
+        from a computer background. We believe in
+        empowering our students to kick-start their careers
+        in the IT industry.
     </h5>
 </div>
 <div class="card--services--body">
 
 
-    <a href="serviceSoftwareDev.php">
-        <div class="card--services">
-            <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
-                    <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;">Software Development</h5>
-                            <div class="twist--box"></div>
-                            <p class="card-text">Elegant custom software development for
-                                unparalleled innovation and operational excellence.</p>
-                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="serviceSoftwareTest.php">
-        <div class="card--services">
-            <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
-                    <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/Software testing card.gif" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;"> Software Testing</h5>
-                            <div class="twist--box"></div>
-                            <p class="card-text">Unsurpassed software testing for perfection and
-                                user-centric excellence..</p>
-                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="serviceDigitalMarketting.php">
-        <div class="card--services">
-            <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
-                    <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/digital marketing card.gif" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;"> Digital Marketing</h5>
-                            <div class="twist--box"></div>
-                            <p class="card-text">Unrivalled digital marketing for unparalleled brand
-                                visibility and exceptional lead generation.</p>
-                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="serviceMockTest.php">
-        <div class="card--services">
-            <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
-                    <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/mock test card.gif" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8 card--body--div">
-                        <div class="card-body">
-                            <h5 class="card-title" id="mockTest" style="overflow:hidden; "> Mock Tests for Class 9 to 12</h5>
-                            <div class="twist--box"></div>
-                            <p class="card-text">Revolutionary mock tests for unparalleled exam
-                                preparation and academic excellence..</p>
-                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="serviceIndustrialTrainning.php">
-        <div class="card--services">
-            <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
-                    <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/industrial training card.gif" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;">Industrial Training</h5>
-                            <div class="twist--box"></div>
-                            <p class="card-text">Empowering IT professionals with cutting-edge
-                                industrial training programs..</p>
-                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="servicePlacement.php">
+    <a href="PlacementWebsite.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
@@ -130,9 +32,9 @@ include("nav.php");
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;">Placement & Internship Assistant</h5>
+                            <h5 class="card-title" style="overflow:hidden;">Placement Website</h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Empowering carrer with personalised placement and internship assistant..</p>
+                            <p class="card-text">Check out our brand new placement and internship website.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -140,6 +42,16 @@ include("nav.php");
             </div>
         </div>
     </a>
+</div>
+<div class="service--body">
+    <h5 class="services--desc " style="margin-bottom:4rem;">Furthermore, if any student from a non-IT
+        background wishes to pursue a job in the high-paying
+        IT industry, we offer them industrial training
+        specifically tailored to their chosen course or subject.
+        After the completion of the training, we extend our
+        support by assisting them in finding suitable
+        placement opportunities or internships
+    </h5>
 </div>
 
 <?php

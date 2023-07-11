@@ -666,7 +666,7 @@ section>.arrowbuttons {
     /* height: 5rem;
     width: 5rem; */
     fill: #3f42d1;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233f42d1'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
     transform: scale(3);
     font-weight: bolder;
 }
@@ -675,7 +675,7 @@ section>.arrowbuttons {
 
     transform: scale(3);
     fill: #3f42d1;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233f42d1'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
 
 .main {
@@ -789,6 +789,11 @@ section>.arrowbuttons {
 .main-aboutus {
     height: 26rem;
     margin-top: 10rem;
+    /* margin-left: 0;
+    margin-right: 0; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
 /* .heading {
@@ -806,7 +811,9 @@ color: #3f42d1;
     margin-top: 3rem;
     height: 20rem;
     width: 100rem;
-    margin-left: 15rem;
+    margin-left: 0;
+    margin-right: 0;
+    /* margin-left: 15rem; */
     border-color: #3f42d1;
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
     border-radius: 1.4rem;
@@ -1011,26 +1018,59 @@ section.Contact_us .section-title {
     justify-content: center;
 }
 
+/* section.Contact_us {
+    height: 80vh;
+    overflow: hidden;
+position: relative;
+}*/
+section.Contact_us .container--contact--form {
+    height: 60vh;
+}
+
+section.Contact_us .container--contact--form .form-floating {
+    height: 100%;
+}
+
+section.Contact_us .subcontainer {
+    width: 80%;
+}
+
+section.Contact_us .container--contact--form .form-floating input {
+    height: 8rem;
+    padding-bottom: -2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+section.Contact_us .container--contact--form .form-floating label {
+    font-size: 2rem;
+}
+
+section.Contact_us .col-12 .submit--contact--form {
+    height: 6rem;
+    font-size: 2rem;
+}
+
+
 section.Contact_us .note .services--tittle {
     margin-top: 0;
 
 }
 
+/* section.Contact_us .form-floating input {
+    height: 3rem;
+
+}
+
+section.Contact_us .form-floating label {
+    font-size: 1.8rem;
+} */
+
 #mockTest {
     font-size: 3.5rem;
 }
 
-.points--service> {
-    position: relative;
-    width: 100%;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2.2rem;
-    margin-top: 5rem;
-    pointer-events: none;
 
-}
 
 .points--service>.textArea {
     position: relative;
@@ -1336,6 +1376,10 @@ a:visited {
         display: none;
     }
 
+    section.Contact_us .container--contact--form {
+        height: 80vh;
+    }
+
     .footer-section * {
         overflow: hidden;
     }
@@ -1563,6 +1607,10 @@ a:visited {
 }
 
 @media only screen and (max-width:376px) {
+    .service--body>.services--tittle {
+        font-size: 3rem;
+    }
+
     .points--service>.twist--box2 {
         left: calc(9% - 1rem);
         /* margin-right: 10rem; */
@@ -1607,6 +1655,55 @@ a:visited {
     }
 }
 
+@media only screen and (max-width:340px) {
+    .points--service>.twist--box2 {
+        left: calc(9% - 1rem);
+        /* margin-right: 10rem; */
+    }
+
+    .main-aboutus {
+        height: 42rem;
+    }
+
+    .main-aboutus .text-center {
+        height: 30rem;
+        /* overflow: hidden; */
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .main-aboutus .card-header {
+        overflow: hidden;
+    }
+
+
+
+    .card--services .card-body {
+        width: 45rem;
+    }
+
+    .card--services .card-title {
+        font-size: 2.3rem;
+    }
+
+    .card--services .card-text {
+        width: 80%;
+        /* font-size: 3rem; */
+    }
+
+    #mockTest {
+        font-size: 2.4rem;
+    }
+
+    .bg--svg {
+        top: -12rem;
+    }
+
+    .service--body>.services--tittle {
+        font-size: 3rem;
+    }
+}
+
 .body {
     position: relative;
     height: 90vh;
@@ -1645,7 +1742,7 @@ a:visited {
 .wrapper {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 40%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     animation: fadeIn 1000ms ease;

@@ -19,10 +19,10 @@
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="aboutUs.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contactUs.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>

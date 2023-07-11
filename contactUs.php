@@ -19,26 +19,26 @@ include("nav.php");
                     <p class="section-title text-secondary justify-C" ><span></span></p>
                     <h1 class="text-center mb-5">Contact For Any Query</h1>
                 </div> -->
-        <div class="row justify-content-center">
-            <div class="col-lg-7">
+        <div class="row justify-content-center container--contact--form">
+            <div class="col-lg-7 subcontainer">
                 <div class="wow fadeInUp" data-wow-delay="0.3s">
                     <form>
                         <div class="row g-3 flex meow">
                             <div class="col-md-6 meow2">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required autocomplete="off">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6 meow2">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required autocomplete="off">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required autocomplete="off">
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ include("nav.php");
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit" style="background-color:#523ca2;">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3 submit--contact--form" type="submit" style="background-color:#523ca2;">Send Message</button>
                             </div>
                         </div>
                     </form>
