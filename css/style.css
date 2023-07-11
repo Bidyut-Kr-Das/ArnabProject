@@ -63,184 +63,6 @@ body {
 
 /* ////////////      FOOTER CSS      START       \\\\\\\\\\\\ */
 
-.footer_main {
-
-    gap: 2rem;
-}
-
-section.footer {
-    background-color: #696969;
-    height: 47rem;
-}
-
-section.footer .right {
-    width: 50vw;
-
-}
-
-section.footer {
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--primary);
-    font-size: 3rem;
-}
-
-section.footer .right .text h1,
-a {
-    color: var(--primary);
-    transition: all 0.2s ease;
-}
-
-section.footer .right .text h1,
-a:hover {
-    color: var(--secondary);
-    transition: all 0.3s ease;
-}
-
-section.footer .left {
-    width: 50vw;
-    height: 30vh;
-    font-size: 21px;
-    line-height: 32px;
-    font-weight: 100;
-
-    position: absolute;
-    top: 6rem;
-    left: 0;
-    font-size: 21px;
-    line-height: 32px;
-    font-weight: 100;
-
-}
-
-section.footer .left .text {
-    flex-direction: column;
-    height: 100%;
-    gap: 4rem;
-}
-
-section.footer .left .text a {
-
-    text-decoration: none;
-}
-
-section.footer .right {
-    flex-direction: column;
-    right: 0;
-    top: 0;
-    position: absolute;
-    text-align: left;
-}
-
-section.footer .right .controls {
-    height: 7rem;
-    margin-top: 0.8rem;
-    margin-left: 24rem;
-    width: 50%;
-
-}
-
-
-section.footer .right .controls ::placeholder {
-    text-transform: uppercase;
-    font-weight: 380;
-    font-size: 1.7rem;
-}
-
-section.footer .right .controls label {
-    color: #ddd;
-    font-size: 18px;
-    line-height: 2px;
-    font-weight: 100px;
-    text-transform: uppercase;
-
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 100;
-    text-transform: uppercase;
-
-}
-
-section.footer .right .form-control {
-    background: transparent !important;
-    border: none;
-    border-bottom: 3px solid transparent;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    outline: none;
-    box-shadow: none;
-    height: 46px;
-    width: 100%;
-    font-size: 21px;
-    line-height: 32px;
-    font-weight: 100;
-
-    -webkit-transition: border-color .3s ease-out;
-    transition: border-color .3s ease-out;
-    background: transparent !important;
-    border: none;
-    border-bottom: 3px solid transparent;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    outline: none;
-    box-shadow: none;
-    height: 56px;
-    width: 100%;
-    font-size: 21px;
-    line-height: 32px;
-    font-weight: 100;
-    /* padding-left:50rem; */
-    -webkit-transition: border-color .3s ease-out;
-    transition: border-color .3s ease-out;
-}
-
-section.footer .right .form-control:hover {
-    border: 1px solid rebeccapurple;
-    transition: all 0.2s ease;
-}
-
-/* section.footer .right .form-group{
-
-    position:relative;
-    width: 35rem;
-} */
-
-section.footer .right .controls fa-envelope {
-    color: #ddd;
-}
-
-section.footer .right textarea.form-control {
-    resize: none;
-    height: auto;
-    max-width: 100%;
-    min-width: 100%;
-    font-size: 21px;
-    line-height: 32px;
-    padding-top: 10px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-}
-
-section.footer .right .error-message {
-    position: absolute;
-    top: -30px;
-
-    font-size: 14px;
-    font-weight: 300;
-    color: #ff0000;
-    z-index: 10;
-}
-
-/*** Footer ***/
-section.footerr {
-    top: 0;
-}
-
-
-
-*:not(i) {
-    font-family: poppins;
-}
 
 header {
     position: fixed;
@@ -613,7 +435,7 @@ section>.arrowbuttons {
 
 
 }
-
+/* 
 .footer {
     padding-top: 9rem;
     background:
@@ -736,7 +558,7 @@ section>.arrowbuttons {
     font-weight: normal;
     border-radius: 50px;
 }
-
+ */
 
 .textArea1 {
     margin-top: 8rem;

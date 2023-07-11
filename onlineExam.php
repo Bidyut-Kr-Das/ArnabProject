@@ -10,11 +10,19 @@ include("nav.php");
 
 <div class="service--body">
 
-    <h3 class="services--tittle">Software Development</h3>
-    <h5 class="services--desc">In the realm of software development, DSS stands
-        out as a leading provider of exceptional services.
-        Here's how we demonstrate our expertise and
-        commitment to excellence:</h5>
+    <h3 class="services--tittle">Online mode of examination</h3>
+    <h5 class="services--desc">In the realm of online examination, we take pride in
+        our exceptional mock test offerings, catering to a
+        diverse range of subjects. Delve into the intricacies of
+        Physics, Chemistry, Mathematics, and Computer
+        Science, as we present a meticulously curated
+        collection of mock tests. Designed in the widely-accepted multiple-choice question (MCQ) format,
+        our online assessments seamlessly align with the
+        examination patterns embraced by esteemed
+        educational boards such as ICSE, ISC, and CBSE
+        <p>Why are we the epitome of excellence in this
+            domain? Let us illustrate:</p>
+    </h5>
 </div>
 <div class="card--services--body">
     <div class="points--service">
