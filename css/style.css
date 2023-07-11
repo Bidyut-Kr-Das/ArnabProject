@@ -690,11 +690,13 @@ section>.arrowbuttons {
 .footer .footer-menu a:hover {
     color: var(--secondary);
 }
+
 @media only screen and (max-width: 992px) {
     .footer {
         width: 80%;
     }
 }
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -702,7 +704,7 @@ section>.arrowbuttons {
 
 .btn:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    
+
 }
 
 .btn-square {
@@ -1011,6 +1013,7 @@ section>.arrowbuttons {
     border-bottom: .2rem solid black; */
     /* mix-blend-mode: darken; */
     color: #023e7d;
+    pointer-events: none;
 
 }
 
@@ -1130,9 +1133,88 @@ section>.arrowbuttons {
     font-size: 3.5rem;
 }
 
+.points--service> {
+    position: relative;
+    width: 100%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.2rem;
+    margin-top: 5rem;
+    pointer-events: none;
+
+}
+
+.points--service>.textArea {
+    position: relative;
+    width: 70%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.2rem;
+    margin-top: 5rem;
+    pointer-events: none;
+}
+
+.points--service>.twist--box1 {
+    color: #523ca2;
+    background-image: linear-gradient(to top right, #7400b8, #7400b8, #6930c3, #5e60ce);
+    transform: rotate(45deg);
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 5.5rem;
+    left: 11%;
+}
+
+.points--service>.twist--box2 {
+    /* color: #523ca2; */
+    background-color: #7400b8;
+    transform: rotate(-45deg);
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 5.75rem;
+    left: 10.3%;
+    /* border-right: .5rem solid white;
+    border-bottom: .5rem solid white; */
+    box-shadow: .5rem .5rem white;
+
+    /* border: 1rem solid transparent;
+    border-color: white; */
+    /* box-shadow: .5rem .5rem white; */
+
+}
+
+.points--service>.textArea>div>strong {
+    color: #523ca2;
+    font-size: 2.3rem;
+}
+
+
+
 @media only screen and (max-width:1010px) {
     .services--tittle {
         font-size: 5.5rem;
+    }
+
+    .points--service>.twist--box2 {
+        /* color: #523ca2; */
+        background-color: #7400b8;
+        transform: rotate(-45deg);
+        height: 1.5rem;
+        width: 1.5rem;
+        position: absolute;
+        top: 5.75rem;
+        left: 10.1%;
+        /* border-right: .5rem solid white;
+        border-bottom: .5rem solid white; */
+        box-shadow: .5rem .5rem white;
+
+        /* border: 1rem solid transparent;
+        border-color: white; */
+        /* box-shadow: .5rem .5rem white; */
+
     }
 }
 
@@ -1156,6 +1238,25 @@ section>.arrowbuttons {
 }
 
 @media only screen and (max-width:850px) {
+    .points--service>.twist--box2 {
+        /* color: #523ca2; */
+        background-color: #7400b8;
+        transform: rotate(-45deg);
+        height: 1.5rem;
+        width: 1.5rem;
+        position: absolute;
+        top: 5.75rem;
+        left: 10%;
+        /* border-right: .5rem solid white;
+        border-bottom: .5rem solid white; */
+        box-shadow: .5rem .5rem white;
+
+        /* border: 1rem solid transparent;
+        border-color: white; */
+        /* box-shadow: .5rem .5rem white; */
+
+    }
+
     .services--tittle {
         font-size: 5rem;
     }
@@ -1181,6 +1282,10 @@ section>.arrowbuttons {
 }
 
 @media only screen and (max-width:750px) {
+    .points--service>.twist--box2 {
+        left: 9.8%;
+    }
+
     .services--tittle {
         font-size: 5rem;
     }
@@ -1211,6 +1316,15 @@ section>.arrowbuttons {
 }
 
 @media only screen and (max-width:600px) {
+    .points--service>.twist--box1 {
+        /* margin-right: 10rem; */
+        left: calc(11% - 1rem);
+    }
+
+    .points--service>.twist--box2 {
+        left: calc(9.7% - 1rem);
+    }
+
     .services--tittle {
         font-size: 5rem;
         padding-left: 0;
@@ -1236,6 +1350,10 @@ section>.arrowbuttons {
 
 
 @media only screen and (max-width:510px) {
+    .points--service>.twist--box2 {
+        left: calc(9.4% - 1rem);
+    }
+
     .services--tittle {
         font-size: 4rem;
         /* font-size: 3rem; */
@@ -1282,6 +1400,13 @@ section>.arrowbuttons {
 }
 
 @media only screen and (max-width:376px) {
+    .points--service>.twist--box2 {
+        left: calc(9% - 1rem);
+        /* margin-right: 10rem; */
+    }
+
+
+
     .card--services .card-body {
         width: 45rem;
     }
