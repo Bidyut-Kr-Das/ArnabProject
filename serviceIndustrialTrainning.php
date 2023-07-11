@@ -21,19 +21,18 @@ include("nav.php");
 <div class="card--services--body">
 
 
-    <a href="serviceSoftwareDev.php">
+    <a href="webDevphp.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
+                        <img src="images/card gifs/web dev php card.gif" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;">Software Development</h5>
+                            <h5 class="card-title" style="overflow:hidden;">PHP</h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Elegant custom software development for
-                                unparalleled innovation and operational excellence.</p>
+                            <p class="card-text">Full Stack Web Development using PHP</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -41,19 +40,20 @@ include("nav.php");
             </div>
         </div>
     </a>
-    <a href="serviceSoftwareTest.php">
+    <a href="webDevNodeReact.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/Software testing card.gif" class="card-img" alt="...">
+                        <img src="images/card gifs/web dev node.js react card.gif" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;"> Software Testing</h5>
+                            <h5 class="card-title" style="overflow:hidden;"> Node.js and
+                                React</h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Unsurpassed software testing for perfection and
-                                user-centric excellence..</p>
+                            <p class="card-text">Full Stack Web Development using Node.js and
+                                React.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -61,19 +61,18 @@ include("nav.php");
             </div>
         </div>
     </a>
-    <a href="serviceDigitalMarketting.php">
+    <a href="webDevSpring.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/digital marketing card.gif" class="card-img" alt="...">
+                        <img src="images/card gifs/web dev spring boot card.gif" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;"> Digital Marketing</h5>
+                            <h5 class="card-title" style="overflow:hidden;">Spring Boot</h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Unrivalled digital marketing for unparalleled brand
-                                visibility and exceptional lead generation.</p>
+                            <p class="card-text">Full Stack Web Development using Spring Boot.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -81,19 +80,19 @@ include("nav.php");
             </div>
         </div>
     </a>
-    <a href="serviceMockTest.php">
+    <a href="dataAnalytic.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/mock test card.gif" class="card-img" alt="...">
+                        <img src="images/card gifs/Data analysis card.gif" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8 card--body--div">
                         <div class="card-body">
-                            <h5 class="card-title" id="mockTest" style="overflow:hidden; "> Mock Tests for Class 9 to 12</h5>
+                            <h5 class="card-title" style="overflow:hidden; ">Data Analytics</h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Revolutionary mock tests for unparalleled exam
-                                preparation and academic excellence..</p>
+                            <p class="card-text">We take pride in offering exceptional training in Data
+                                Analytics.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -101,19 +100,19 @@ include("nav.php");
             </div>
         </div>
     </a>
-    <a href="serviceIndustrialTrainning.php">
+    <a href="automationTest.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/industrial training card.gif" class="card-img" alt="...">
+                        <img src="images/card gifs/automation testing card.gif" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;">Industrial Training</h5>
+                            <h5 class="card-title" style="overflow:hidden;">Automation Testing</h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Empowering IT professionals with cutting-edge
-                                industrial training programs..</p>
+                            <p class="card-text">We take great pride in offering exceptional training in
+                                Automation Testing.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -121,18 +120,19 @@ include("nav.php");
             </div>
         </div>
     </a>
-    <a href="servicePlacement.php">
+    <a href="industrialCoding.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
                 <div class="row no-gutters" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/placement card.gif" class="card-img" alt="...">
+                        <img src="images/card gifs/industrial coding card.gif" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;">Placement & Internship Assistant</h5>
+                            <h5 class="card-title" style="overflow:hidden;">Industrial Coding </h5>
                             <div class="twist--box"></div>
-                            <p class="card-text">Empowering carrer with personalised placement and internship assistant..</p>
+                            <p class="card-text">We are dedicated to providing exceptional training in
+                                Industrial Coding.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
@@ -140,7 +140,18 @@ include("nav.php");
             </div>
         </div>
     </a>
+    <div class="service--body">
+        <h5 class="services--desc " style="margin-bottom:4rem;">Through hands-on exercises, real-world like projects,
+            and mentorship from experienced professionals,
+            participants gain valuable insights and industry
+            exposure. Our goal is to empower aspiring IT
+            professionals with the tools they need to excel in
+            their careers and contribute to the ever-evolving IT
+            landscape
+        </h5>
+    </div>
 </div>
+
 
 <?php
 include("footer.php");
