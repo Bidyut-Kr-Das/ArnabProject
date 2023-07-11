@@ -22,114 +22,125 @@ include("nav.php");
 <div class="card--services--body">
 
 
-    <div class="card--services">
-        <div class="card mb-3" style="overflow:hidden;">
-            <div class="row no-gutters" style="overflow:hidden;">
-                <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title" style="overflow:hidden;">Software Development</h5>
-                        <div class="twist--box"></div>
-                        <p class="card-text">Elegant custom software development for
-                            unparalleled innovation and operational excellence.</p>
-                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+    <a href="serviceSoftwareDev.php">
+        <div class="card--services">
+            <div class="card mb-3" style="overflow:hidden;">
+                <div class="row no-gutters" style="overflow:hidden;">
+                    <div class="col-md-4 gif--image">
+                        <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title" style="overflow:hidden;">Software Development</h5>
+                            <div class="twist--box"></div>
+                            <p class="card-text">Elegant custom software development for
+                                unparalleled innovation and operational excellence.</p>
+                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card--services">
-        <div class="card mb-3" style="overflow:hidden;">
-            <div class="row no-gutters" style="overflow:hidden;">
-                <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/Software testing card.gif" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title" style="overflow:hidden;"> Software Testing</h5>
-                        <div class="twist--box"></div>
-                        <p class="card-text">Unsurpassed software testing for perfection and
-                            user-centric excellence..</p>
-                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+    </a>
+    <a href="serviceSoftwareTest.php">
+        <div class="card--services">
+            <div class="card mb-3" style="overflow:hidden;">
+                <div class="row no-gutters" style="overflow:hidden;">
+                    <div class="col-md-4 gif--image">
+                        <img src="images/card gifs/Software testing card.gif" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title" style="overflow:hidden;"> Software Testing</h5>
+                            <div class="twist--box"></div>
+                            <p class="card-text">Unsurpassed software testing for perfection and
+                                user-centric excellence..</p>
+                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card--services">
-        <div class="card mb-3" style="overflow:hidden;">
-            <div class="row no-gutters" style="overflow:hidden;">
-                <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/digital marketing card.gif" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title" style="overflow:hidden;"> Digital Marketing</h5>
-                        <div class="twist--box"></div>
-                        <p class="card-text">Unrivalled digital marketing for unparalleled brand
-                            visibility and exceptional lead generation.</p>
-                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+    </a>
+    <a href="serviceDigitalMarketting.php">
+        <div class="card--services">
+            <div class="card mb-3" style="overflow:hidden;">
+                <div class="row no-gutters" style="overflow:hidden;">
+                    <div class="col-md-4 gif--image">
+                        <img src="images/card gifs/digital marketing card.gif" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title" style="overflow:hidden;"> Digital Marketing</h5>
+                            <div class="twist--box"></div>
+                            <p class="card-text">Unrivalled digital marketing for unparalleled brand
+                                visibility and exceptional lead generation.</p>
+                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card--services">
-        <div class="card mb-3" style="overflow:hidden;">
-            <div class="row no-gutters" style="overflow:hidden;">
-                <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/mock test card.gif" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8 card--body--div">
-                    <div class="card-body">
-                        <h5 class="card-title" id="mockTest" style="overflow:hidden; "> Mock Tests for Class 9 to 12</h5>
-                        <div class="twist--box"></div>
-                        <p class="card-text">Revolutionary mock tests for unparalleled exam
-                            preparation and academic excellence..</p>
-                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+    </a>
+    <a href="serviceMockTest.php">
+        <div class="card--services">
+            <div class="card mb-3" style="overflow:hidden;">
+                <div class="row no-gutters" style="overflow:hidden;">
+                    <div class="col-md-4 gif--image">
+                        <img src="images/card gifs/mock test card.gif" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8 card--body--div">
+                        <div class="card-body">
+                            <h5 class="card-title" id="mockTest" style="overflow:hidden; "> Mock Tests for Class 9 to 12</h5>
+                            <div class="twist--box"></div>
+                            <p class="card-text">Revolutionary mock tests for unparalleled exam
+                                preparation and academic excellence..</p>
+                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card--services">
-        <div class="card mb-3" style="overflow:hidden;">
-            <div class="row no-gutters" style="overflow:hidden;">
-                <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/industrial training card.gif" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title" style="overflow:hidden;">Industrial Training</h5>
-                        <div class="twist--box"></div>
-                        <p class="card-text">Empowering IT professionals with cutting-edge
-                            industrial training programs..</p>
-                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+    </a>
+    <a href="serviceIndustrialTrainning.php">
+        <div class="card--services">
+            <div class="card mb-3" style="overflow:hidden;">
+                <div class="row no-gutters" style="overflow:hidden;">
+                    <div class="col-md-4 gif--image">
+                        <img src="images/card gifs/industrial training card.gif" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title" style="overflow:hidden;">Industrial Training</h5>
+                            <div class="twist--box"></div>
+                            <p class="card-text">Empowering IT professionals with cutting-edge
+                                industrial training programs..</p>
+                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card--services">
-        <div class="card mb-3" style="overflow:hidden;">
-            <div class="row no-gutters" style="overflow:hidden;">
-                <div class="col-md-4 gif--image">
-                    <img src="images/card gifs/placement card.gif" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title" style="overflow:hidden;">Placement & Internship Assistant</h5>
-                        <div class="twist--box"></div>
-                        <p class="card-text">Empowering carrer with personalised placement and internship assistant..</p>
-                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+    </a>
+    <a href="servicePlacement.php">
+        <div class="card--services">
+            <div class="card mb-3" style="overflow:hidden;">
+                <div class="row no-gutters" style="overflow:hidden;">
+                    <div class="col-md-4 gif--image">
+                        <img src="images/card gifs/placement card.gif" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title" style="overflow:hidden;">Placement & Internship Assistant</h5>
+                            <div class="twist--box"></div>
+                            <p class="card-text">Empowering carrer with personalised placement and internship assistant..</p>
+                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </a>
 </div>
 
 <?php
