@@ -10,7 +10,7 @@ include("nav.php");
         <div class="carousel-inner">
             <div class="carousel-item active" id="slide0">
                 <div class="textArea1">
-                    <div class="heading">Software Development</div>
+                    <div class="heading4">Software Development</div>
                     <div class="shortDesc">Elegant custom software development for
                         unparalleled innovation and operational excellence.</div>
                     <div class="button--knowmore">

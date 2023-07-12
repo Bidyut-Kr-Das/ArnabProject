@@ -32,7 +32,7 @@
                                 <h3>Contact Us</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>For any queries </p>
+                                <p>We promise not to spam</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
@@ -48,7 +48,7 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div style="width:100%;" class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
                             <p>Copyright &copy; 2018, All Right Reserved</p>
                         </div>
