@@ -10,7 +10,7 @@ include("nav.php");
 
 <div class="service--body">
 
-    <h3 class="services--tittle">Placement and Internship Assistance</h3>
+    <h3 class="services--tittle placement--service--tittle">Placement and Internship Assistance</h3>
     <h5 class="services--desc">We understand the significance of bridging the gap
         between education and employment. That's why, at
         DSS, we provide placement and internship assistance
@@ -26,7 +26,7 @@ include("nav.php");
     <a href="PlacementWebsite.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
+                <div class="row no-gutters idkHyperClassMayBe" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
                         <img src="images/card gifs/placement card.gif" class="card-img" alt="...">
                     </div>

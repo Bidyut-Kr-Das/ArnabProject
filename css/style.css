@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     position: relative;
 
 }
@@ -131,17 +131,14 @@ nav ul li:not(:last-child) a:hover {
 
 
 section#home {
-    height: 100vh;
+    height: 10rem;
     width: 100%;
     background-color: cornflowerblue;
     position: relative;
     /*  -1000; */
 }
 
-h1 {
-    font-size: 4rem;
-    /*  -100; */
-}
+
 
 #ham-menu {
     display: none;
@@ -562,7 +559,7 @@ section>.arrowbuttons {
  */
 
 .textArea1 {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
     /* height: calc(100vh - 8rem); */
     height: 100%;
     width: 100%;
@@ -591,7 +588,7 @@ section>.arrowbuttons {
     /* background-clip: text;
     -webkit-background-clip: text; */
     font-weight: bolder;
-    margin-top: -14rem;
+    /* margin-top: -14rem; */
 }
 
 .textArea1>.heading4 {
@@ -602,7 +599,7 @@ section>.arrowbuttons {
     /* background-clip: text;
     -webkit-background-clip: text; */
     font-weight: bolder;
-    margin-top: -14rem;
+    /* margin-top: -14rem; */
 }
 
 
@@ -858,7 +855,8 @@ color: #3f42d1;
 .bg--svg {
     width: 100vw;
     position: absolute;
-    top: 9rem;
+    /* top: 9rem; */
+    overflow-x: hidden;
 }
 
 .services--tittle {
@@ -916,7 +914,7 @@ color: #3f42d1;
     /* height: calc(100vh + 10rem);s */
     width: 100%;
     display: flex;
-    margin-top: 9rem;
+    /* margin-top: 9rem; */
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
@@ -965,7 +963,15 @@ color: #3f42d1;
 .gif--image,
 .gif--image>img {
     height: 27rem;
+    width: 20rem;
+    /* overflow-x: auto; */
 
+}
+
+.idkHyperClassMayBe {
+    display: flex;
+    justify-content: space-around;
+    /* overflow-x: auto; */
 }
 
 .card--services .twist--box {
@@ -977,6 +983,7 @@ color: #3f42d1;
     top: 1.5rem;
     right: 8%;
 }
+
 
 
 
@@ -994,6 +1001,8 @@ color: #3f42d1;
 .card--services .card-body {
     margin-top: 4rem;
     position: relative;
+    margin-right: 0 !important;
+    /* overflow-x: auto; */
 }
 
 
@@ -1090,7 +1099,7 @@ section.Contact_us .form-floating label {
     height: 2rem;
     width: 2rem;
     position: absolute;
-    top: 5.5rem;
+    top: 0.5rem;
     left: 11%;
 }
 
@@ -1101,7 +1110,7 @@ section.Contact_us .form-floating label {
     height: 1.5rem;
     width: 1.5rem;
     position: absolute;
-    top: 5.75rem;
+    top: 0.75rem;
     left: 10.3%;
     /* border-right: .5rem solid white;
     border-bottom: .5rem solid white; */
@@ -1341,15 +1350,98 @@ a:visited {
     flex-shrink: 1 !important;
 }
 
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 2rem;
+    pointer-events: none;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.placement--service--tittle {
+    font-size: 5rem;
+}
+
 
 
 @media only screen and (max-width:1010px) {
+
+
     .footer-section * {
         overflow: hidden;
     }
 
     .services--tittle {
         font-size: 5.5rem;
+    }
+
+    .placement--service--tittle {
+        font-size: 4.5rem;
     }
 
     .main-aboutus .text-center {
@@ -1366,7 +1458,7 @@ a:visited {
         height: 1.5rem;
         width: 1.5rem;
         position: absolute;
-        top: 5.75rem;
+        /* top: 5.75rem; */
         left: 10.1%;
         /* border-right: .5rem solid white;
         border-bottom: .5rem solid white; */
@@ -1406,6 +1498,10 @@ a:visited {
         font-size: 5.5rem;
     }
 
+    .placement--service--tittle {
+        font-size: 4.5rem;
+    }
+
     .card--services>.card {
         width: 90vw;
 
@@ -1428,7 +1524,7 @@ a:visited {
         height: 1.5rem;
         width: 1.5rem;
         position: absolute;
-        top: 5.75rem;
+        /* top: 5.75rem; */
         left: 10%;
         /* border-right: .5rem solid white;
         border-bottom: .5rem solid white; */
@@ -1445,6 +1541,10 @@ a:visited {
         font-size: 5rem;
     }
 
+    .placement--service--tittle {
+        font-size: 4rem;
+    }
+
     .bg--svg {
         top: 5rem;
     }
@@ -1455,7 +1555,7 @@ a:visited {
 
     .gif--image {
         /* height: 10rem; */
-        width: 29%;
+        /* width: 29%; */
     }
 
     .row {
@@ -1466,6 +1566,8 @@ a:visited {
 }
 
 @media only screen and (max-width:750px) {
+
+
     .points--service>.twist--box2 {
         left: 9.8%;
     }
@@ -1479,6 +1581,10 @@ a:visited {
         font-size: 5rem;
     }
 
+    .placement--service--tittle {
+        font-size: 4rem;
+    }
+
     .bg--svg {
         top: 0rem;
     }
@@ -1488,7 +1594,8 @@ a:visited {
     }
 
     .card--services .card-body {
-        width: 50rem;
+        max-width: 69rem;
+        min-width: 50rem;
     }
 
     .card--services .card-title {
@@ -1531,6 +1638,10 @@ a:visited {
         padding-right: 0;
     }
 
+    .placement--service--tittle {
+        font-size: 3.7rem;
+    }
+
     .bg--svg {
         top: -5rem;
     }
@@ -1559,6 +1670,31 @@ a:visited {
 
     }
 
+    .card--services--body .card {
+        height: 58rem;
+        max-width: 46rem;
+    }
+
+    .card--services--body .card--services {
+        height: 58rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .gif--image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gif--image>img {
+        width: 30rem;
+    }
+
+    .idkHyperClassMayBe {
+        flex-direction: column;
+    }
+
     .main-aboutus .card-header {
         overflow: hidden;
         font-size: 2rem;
@@ -1577,6 +1713,10 @@ a:visited {
         padding: 5rem;
     }
 
+    .placement--service--tittle {
+        font-size: 3.5rem;
+    }
+
     .bg--svg {
         top: -10rem;
     }
@@ -1585,16 +1725,16 @@ a:visited {
         transform: none;
     }
 
-    .gif--image {
+    /* .gif--image {
         display: none;
-    }
+    } */
 
     .service--body {
         gap: 0;
     }
 
     .card--services .card-body {
-        width: 55rem;
+        width: 53rem;
     }
 
     .card--services .card-title {
@@ -1615,6 +1755,25 @@ a:visited {
 }
 
 @media only screen and (max-width:376px) {
+    .card--services--body .card {
+        height: 58rem;
+        max-width: 45rem;
+        min-width: 38rem;
+        /* width: auto; */
+    }
+
+    .card--services .card-body {
+        max-width: 45rem;
+        min-width: 38rem;
+        width: auto;
+    }
+
+    .card--services--body .card--services {
+        height: 58rem;
+        width: 100%;
+        justify-content: center;
+    }
+
     .service--body>.services--tittle {
         font-size: 3rem;
     }
@@ -1628,7 +1787,7 @@ a:visited {
         height: 42rem;
     }
 
-    .main-aboutus .text-center {
+    . .main-aboutus .text-center {
         height: 30rem;
         /* overflow: hidden; */
         margin-left: 2rem;
@@ -1641,9 +1800,6 @@ a:visited {
 
 
 
-    .card--services .card-body {
-        width: 45rem;
-    }
 
     .card--services .card-title {
         font-size: 2.3rem;
@@ -1710,7 +1866,7 @@ a:visited {
     .service--body>.services--tittle {
         font-size: 3rem;
     }
-    
+
 }
 
 .body {

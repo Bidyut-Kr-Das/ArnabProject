@@ -12,10 +12,6 @@ navLinks.forEach((navLinks) => {
     hamMenuIcon.classList.toggle("fa-times");
   });
 });
-
-// $(".carousel").carousel("cycle");
-
-// const slider = document.querySelector(".slider");
 const arrowBtnDiv = document.querySelector(".arrowbuttons");
 const leftButton = document.querySelector(".carousel-control-prev");
 const rightButton = document.querySelector(".carousel-control-next");
@@ -30,35 +26,13 @@ const check = () => {
 };
 const slider = () => {
   $(".carousel").carousel("next");
-  // check();
-  // // let activeSlide = document.querySelector(`#slide${counter}`);
-  // const deactiveSlide = document.querySelectorAll(".carousel-item");
-  // // console.log(deactiveSlide);
-  // deactiveSlide.forEach((slide, index) => {
-  //   index === counter
-  //     ? slide.classList.add("active")
-  //     : slide.classList.remove("active");
-  // });
-  // counter++;
 };
 
-const interval = setInterval(slider, 3500);
-
-// leftButton.addEventListener("click", () => {
-//   counter--;
-//   slider();
-// });
-// rightButton.addEventListener("click", slider);
-
-// const slide = () => {
-//   check();
-//   slider.style.left = `-${counter * 100}%`; //this is string interpolation
-//   // return 1;
-// };
-
-// const interval = setInterval(() => {
-//   // console.log(counter);
-//   counter++;
-//   slide();
-//   if (counter >= 5) counter = -1;
-// }, 4000);
+// const interval = setInterval(slider, 3500);
+const myFunction = () => {
+  let x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function () {
+    x.className = x.className.replace("show", "");
+  }, 3000);
+};

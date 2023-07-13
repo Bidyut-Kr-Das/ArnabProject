@@ -3,7 +3,7 @@ include("header.php");
 ?>
 <header>
     <nav>
-        <a href="index.php" id="logo"><img src="images/20230327_034238_0000.png" alt="LOGO" /></a>
+        <a href="index.php?msg=testing" id="logo"><img src="images/20230327_034238_0000.png" alt="LOGO" /></a>
         <i class="fas fa-bars" id="ham-menu"></i>
         <ul id="nav-bar">
             <li>
@@ -21,3 +21,6 @@ include("header.php");
         </ul>
     </nav>
 </header>
+<section id="home">
+    &nbsp;abcd
+</section>

@@ -39,7 +39,7 @@ include("nav.php");
     <a href="onlineExam.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
+                <div class="row no-gutters idkHyperClassMayBe" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
                         <img src="images/card gifs/Online mode card.gif" class="card-img" alt="...">
                     </div>
@@ -60,7 +60,7 @@ include("nav.php");
     <a href="offlineExam.php">
         <div class="card--services">
             <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters" style="overflow:hidden;">
+                <div class="row no-gutters idkHyperClassMayBe" style="overflow:hidden;">
                     <div class="col-md-4 gif--image">
                         <img src="images/card gifs/offline mode card.gif" class="card-img" alt="...">
                     </div>
