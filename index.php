@@ -3,6 +3,11 @@ include("nav.php");
 
 
 ?>
+<style>
+    * {
+        overflow-x: hidden;
+    }
+</style>
 <div class="main">
 
 

@@ -1,3 +1,9 @@
+<?php
+if (isset($_REQUEST["mode"])) {
+    $email = $_REQUEST['email'];
+    // @header("location:contactUs.php?email=" + $email);
+}
+?>
 <footer class="footer-section">
     <div class="container">
 
@@ -8,8 +14,8 @@
                         <div class="footer-social-icon">
                             <span>Follow us</span>
                             <a href="https://github.com/Bidyut-Kr-Das" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                            <a href="https://github.com/Bidyut-Kr-Das"><i class="fab fa-twitter twitter-bg"></i></a>
-                            <a href="https://github.com/Bidyut-Kr-Das"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            <a href="https://github.com/Bidyut-Kr-Das" target="_blank"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="https://github.com/Bidyut-Kr-Das" target="_blank"><i class="fab fa-google-plus-g google-bg"></i></a>
                         </div>
                     </div>
                 </div>
@@ -35,9 +41,10 @@
                             <p>We promise not to spam</p>
                         </div>
                         <div class="subscribe-form">
-                            <form action="#">
-                                <input type="text" placeholder="Email Address">
+                            <form action="contactUs.php?email=<?php echo $email; ?>">
+                                <input type="text" placeholder="Email Address" name="email">
                                 <button><i class="fab fa-telegram-plane"></i></button>
+                                <input type="hidden" name="mode" value="1">
                             </form>
                         </div>
                     </div>
