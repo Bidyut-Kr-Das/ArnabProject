@@ -2,8 +2,8 @@
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 16, 2023 at 01:39 PM
+-- Host: localhost
+-- Generation Time: Jul 16, 2023 at 03:38 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -84,6 +84,14 @@ CREATE TABLE `servicescard` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `servicescard`
+--
+
+INSERT INTO `servicescard` (`id`, `title`, `photo`, `ShortDesc`, `description`) VALUES
+(1, 'Software Development', '', 'Elegant custom software development for unparalleled innovation and operational excellence.', 'Elegant custom software development for unparalleled innovation and operational excellence.'),
+(2, 'Software Testing', '', 'Unsurpassed software testing for perfection and user-centric excellence.', '');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -137,7 +145,7 @@ ALTER TABLE `logindata`
 -- AUTO_INCREMENT for table `servicescard`
 --
 ALTER TABLE `servicescard`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
