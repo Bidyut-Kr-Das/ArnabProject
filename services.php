@@ -54,7 +54,7 @@ include("nav.php");
                             <h5 class="card-title" style="overflow:hidden;"> Software Testing</h5>
                             <div class="twist--box"></div>
                             <p class="card-text">Unsurpassed software testing for perfection and
-                                user-centric excellence..</p>
+                                user-centric excellence.</p>
                             <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
                         </div>
                     </div>
