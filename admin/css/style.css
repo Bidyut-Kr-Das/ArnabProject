@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#admin--signin--bg {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    position: relative;
+    width: 1%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(.5rem);
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Dosis', sans-serif;
+}
+
+.sign-panels {
+    width: 650px;
+    background: #fff;
+    padding: 40px 80px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login,
+.signup {
+    position: relative;
+}
+
+
+.title {
+    color: #9f9f9f;
+}
+
+.title span {
+    display: block;
+    font-size: 46px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #3a0ca3, #3f37c9, #4361ee, #4895ef);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-face,
+.btn-twitter {
+    color: #fff;
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 11px 0;
+    font-weight: 500;
+}
+
+.btn-face .fa,
+.btn-twitter .fa {
+    margin-right: 5px;
+}
+
+.btn-face {
+    background: #5397d7;
+    margin-right: 25px;
+}
+
+.btn-twitter {
+    background: #40b9e0;
+}
+
+.or {
+    margin: 35px 0;
+    font-weight: 600;
+    color: #9f9f9f;
+}
+
+.or:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #cecece;
+    position: absolute;
+    margin-top: -10px;
+    z-index: 0;
+}
+
+.or span {
+    display: block;
+    background: #fff;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.sign-panels input {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #ededed;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 500;
+}
+
+.sign-panels input:focus {
+    outline: none;
+}
+
+.sign-panels input[type="checkbox"] {
+    display: none;
+}
+
+.sign-panels input[type="checkbox"]+label {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    display: block;
+    width: 50%;
+    text-align: left;
+    padding-left: 60px;
+    cursor: pointer;
+    color: #828282;
+    font-weight: 500;
+    margin-top: 10px;
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.sign-panels input[type="checkbox"]+label:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #dbdbdb;
+    position: absolute;
+    left: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 5px #ededed;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.sign-panels input[type="checkbox"]:checked+label:before {
+    background: #3f37c9;
+    box-shadow: 0 0 0 5px #3f37c9;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn-signin>input {
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+    height: 50px;
+    background: linear-gradient(to right, #3a0ca3, #3f37c9, #4361ee, #4895ef);
+    border-radius: 50px;
+    padding: 11px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.btn-reset,
+.btn-member,
+.btn-fade {
+    font-size: 19px;
+    font-weight: 500;
+    color: #9f9f9f;
+    display: block;
+    /*width: 210px;*/
+    margin: 30px auto 0;
+    text-decoration: none;
+
+}
+
+.btn-member {
+    margin-top: 15px;
+}
+
+.btn-reset .fa,
+.btn-member .fa {
+    margin-left: 6px;
+}
+
+.notification p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #9f9f9f;
+}
+
+.notification span {
+    color: #ec581e;
+}
+
+.error {
+    display: block;
+    color: #ec581e;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.navBar--admin {
+    width: 100vw;
+    height: 6rem;
+    background: #f3f6fd;
+    /* background: linear-gradient(to right, #3a0ca3, #3f37c9, #4361ee, #4895ef); */
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    .heading1 {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .fa-bars-staggered {
+        font-size: 2rem;
+        background: linear-gradient(to right, #3a0ca3, #3f37c9);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        width: calc(100% - 10rem);
+        /* background-color: white; */
+    }
+
+    .title {
+        font-size: 2rem;
+        letter-spacing: .1rem;
+        font-weight: bolder;
+        background: linear-gradient(to bottom, #3a0ca3, #3f37c9, #4361ee, #4895ef);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+
+        .button1 {
+            background-color: #f3f6fd;
+            height: 4rem;
+            width: 4rem;
+            /* border: .2rem solid #1f1c2e; */
+            border: none;
+            border-radius: 2rem;
+            transition: .3s;
+
+        }
+
+        .button1:hover {
+            background: #c3cff4;
+
+        }
+
+        .fa-house {
+            color: #4361ee;
+            font-size: 2rem;
+        }
+
+        .button1:hover .fa-house {
+            color: #f3f6fd;
+        }
+
+        .button2 {
+            background-color: #f3f6fd;
+            height: 4rem;
+            width: 4rem;
+            /* border: .2rem solid #1f1c2e; */
+            border: none;
+            border-radius: 2rem;
+            transition: .3s;
+
+        }
+
+        .button2:hover {
+            background: #c3cff4;
+
+        }
+
+        .fa-message {
+            color: #4361ee;
+            font-size: 2rem;
+        }
+
+        .button2:hover .fa-message {
+            color: #f3f6fd;
+        }
+    }
+
+    .button--part {
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+
+        .fa-lines-vertical {
+            font-size: 4rem;
+            line-height: 1rem;
+            color: darkgray;
+
+        }
+
+
+        .logoutBtn {
+            height: 3.5rem;
+            width: 12rem;
+            border-radius: 1.75rem;
+            border: none;
+            background: linear-gradient(to bottom right, #3a0ca3, #3f37c9, #4361ee, #4895ef);
+            color: White;
+            font-size: 1.8rem;
+            font-weight: bold;
+            /* margin-right: 1rem; */
+        }
+
+        .username--admin {
+            font-weight: bolder;
+            color: darkgrey;
+        }
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .sign-panels {
+        width: 90%;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .sign-panels {
+        padding: 40px 20px;
+    }
+
+    .btn-face,
+    .btn-twitter {
+        width: 100%;
+    }
+
+    .btn-face {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sign-panels input[type="checkbox"]+label {
+        width: 100%;
+    }
+
+    .btn-signin>input {
+        width: 80%;
+    }
+
+    .title span {
+        font-size: 36px;
+    }
+
+}
