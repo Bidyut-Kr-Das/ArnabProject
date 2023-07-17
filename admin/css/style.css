@@ -246,7 +246,7 @@ html {
     /* background: linear-gradient(to right, #3a0ca3, #3f37c9, #4361ee, #4895ef); */
     font-family: 'DM Sans', sans-serif;
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
 
     .heading1 {
@@ -273,7 +273,7 @@ html {
         align-items: center;
         padding-left: 5rem;
         padding-right: 5rem;
-        width: calc(100% - 10rem);
+        width: 100%;
         /* background-color: white; */
     }
 
@@ -389,6 +389,25 @@ html {
         width: 90%;
         padding: 40px;
     }
+
+    .navBar--admin {
+        .heading1 {
+            .fa-bars-staggered {
+                display: none;
+            }
+        }
+
+        .button--part {
+            .username--admin {
+                display: none;
+            }
+
+            .fa-lines-vertical {
+                display: none;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 570px) {
@@ -404,6 +423,19 @@ html {
     .btn-face {
         margin-right: 0;
         margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .navBar--admin {
+        .heading1 {
+            display: none;
+        }
+
+        .button--part {
+            width: 100%;
+            justify-content: space-between;
+        }
     }
 }
 

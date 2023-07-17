@@ -1553,10 +1553,7 @@ a:visited {
         transform: scaleX(2);
     }
 
-    .gif--image {
-        /* height: 10rem; */
-        /* width: 29%; */
-    }
+    
 
     .row {
         flex-wrap: nowrap !important;
@@ -1787,7 +1784,7 @@ a:visited {
         height: 42rem;
     }
 
-    . .main-aboutus .text-center {
+    .main-aboutus .text-center {
         height: 30rem;
         /* overflow: hidden; */
         margin-left: 2rem;
