@@ -10,3 +10,8 @@ $("#remember").change(() => {
     passwordAdminSignin.attr("type", "password");
   }
 });
+const edit = (id) => {
+  // console.log(1);
+  window.location.href =
+    "dashboard.php?id=" + id + "&msg=Coming soon? may be not :( ";
+};

@@ -1,5 +1,24 @@
 <?php
 include("nav.php");
+$rikuExistkore = false;
+$rikuExistkorena = false;
+
+if (isset($_REQUEST['riku'])) {
+    $rikuExistkore = true;
+    $kingshuk = $_REQUEST['riku'];
+    $query = "SELECT * FROM `servicescard` WHERE `id`='$kingshuk' ";
+    $row = mysqli_query($connection, $query);
+    $rowarr = mysqli_fetch_array($row);
+} else {
+    $rikuExistkorena = true;
+    $query = "SELECT * FROM `servicescard`";
+    $is_query_run = mysqli_query($connection, $query);
+}
+
+
+
+
+
 ?>
 <div class="bg--svg" style="overflow-x:hidden;">
     <svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
@@ -7,39 +26,51 @@ include("nav.php");
     </svg>
 </div>
 <div class="service--body" style="overflow-x:hidden;">
-<h3 class="services--tittle">Our Features And Services</h3>
-<div class="card--services--body">
-<?php
-$query = "SELECT * FROM `servicescard`";
-$is_query_run = mysqli_query($connection,$query);
-    while ($query_executed = mysqli_fetch_array ($is_query_run))
-    {
-        // echo $query_executed['photo'].' ';
-        // echo $query_executed['description'].'<br>';
-    
-?>
-<a href="service_admin.php?id=<?php echo $query_executed['id'];
-?>" > 
+    <h3 class="services--tittle"><?php
+                                    if ($rikuExistkore) {
+                                        echo $rowarr['title'];
+                                    } else {
+                                        echo "Our Features and Services";
+                                    }
 
-        <div class="card--services">
-            <div class="card mb-3" style="overflow:hidden;">
-                <div class="row no-gutters idkHyperClassMayBe" style="overflow:hidden;">
-                    <div class="col-md-4 gif--image">
-                        <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title" style="overflow:hidden;"><?php echo $query_executed['title']; ?></h5>
-                            <div class="twist--box"></div>
-                            <p class="card-text"><?php echo $query_executed['ShortDesc']; ?></p>
-                            <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                                    ?></h3>
+    <h5 class="services--desc"><?php
+                                if ($rikuExistkore) {
+                                    echo $rowarr['description'];
+                                } else {
+                                    echo "Passionate experts in software development, testing, digital marketing, and training. We offer tailored solutions, robust applications, flawless testing, result-driven marketing, and comprehensive mock tests. Our industry-specific training empowers IT professionals. We provide placement and internship assistance, bridging the education-employment gap for computer and non-IT students. Experience excellence with our expertise. Services we offer";
+                                }
+                                ?></h5>
+    <div class="card--services--body">
+        <?php
+        if ($rikuExistkorena) {
+            while ($query_executed = mysqli_fetch_array($is_query_run)) {
+                // echo $query_executed['photo'].' ';
+                // echo $query_executed['description'].'<br>';
+
+        ?>
+                <a href="service_admin.php?riku=<?php echo $query_executed['id'];
+                                                ?>">
+                    <div class="card--services">
+                        <div class="card mb-3" style="overflow:hidden;">
+                            <div class="row no-gutters idkHyperClassMayBe" style="overflow:hidden;">
+                                <div class="col-md-4 gif--image">
+                                    <img src="images/card gifs/software development card.gif" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="overflow:hidden;"><?php echo $query_executed['title']; ?></h5>
+                                        <div class="twist--box"></div>
+                                        <p class="card-text"><?php echo $query_executed['ShortDesc']; ?></p>
+                                        <p class="card-text"><small class="text-muted">Click to Learn More</small></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    <?php
-    }
-    ?>
-</div>
+                </a>
+        <?php
+            }
+        }
+        ?>
+    </div>

@@ -12,9 +12,9 @@ $adminname = $_SESSION['admin'];
 
         <div class="button--part">
             <div class="menu">
-                <a href="#"><button class="button1" title="Home">
+                <a href="dashboard.php"><button class="button1" title="Home">
                         <i class="fa-solid fa-house"></i></button></a>
-                <a href="#"><button class="button2" title="Inbox">
+                <a href="dashboard.php?msg=Coming soon? may be not :("><button class="button2" title="Inbox">
                         <i class="fa-solid fa-message"></i></button></a>
             </div>
             <a href="logout.php"><input type="button" class="logoutBtn" value="Logout" title="logout" /></a>

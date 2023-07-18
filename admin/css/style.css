@@ -11,10 +11,18 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 html {
     font-size: 62.5%;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
 }
 
 #admin--signin--bg {
@@ -369,6 +377,7 @@ html {
             color: White;
             font-size: 1.8rem;
             font-weight: bold;
+            transition: 2s ease;
             /* margin-right: 1rem; */
         }
 
@@ -380,6 +389,246 @@ html {
 
 
 
+
+}
+
+.admin--dashboard--main {
+    .dashboard--body {
+        height: calc(100vh - 6rem);
+        width: 100vw;
+        background: #f3f6fd;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .card--holder--main {
+            background: white;
+            height: 90%;
+            width: 90%;
+            border-radius: 2rem;
+
+
+        }
+
+        .card--holder--body {
+            /* background: blue; */
+            display: flex;
+            /* justify-content: space-around; */
+            flex-direction: column;
+            gap: 3rem;
+            margin: 2rem;
+            height: calc(100% - 4rem);
+
+            .wrapper--searchbar {
+                /* width: 100%;
+                max-width: 31.25rem;
+                margin: 6rem auto; */
+                max-width: 50rem;
+
+                .label {
+                    font-size: .625rem;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    letter-spacing: +1.3px;
+                    margin-bottom: 1rem;
+                }
+
+                .searchBar {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                #searchQueryInput {
+                    width: 100%;
+                    height: 3.8rem;
+                    background: #f5f5f5;
+                    outline: none;
+                    border: none;
+                    border-radius: 1.625rem;
+                    padding: 0 3.5rem 0 1.5rem;
+                    font-size: 1.6rem;
+                }
+
+                #searchQuerySubmit {
+                    width: 3.5rem;
+                    height: 3.8rem;
+                    margin-left: -3.5rem;
+                    background: none;
+                    border: none;
+                    outline: none;
+                }
+
+                #searchQuerySubmit:hover {
+                    cursor: pointer;
+                }
+            }
+
+
+
+            .block1 {
+                display: flex;
+                height: 5rem;
+                /* background: blue; */
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                padding-inline: 2rem;
+                font-size: 2.5rem;
+                font-weight: bolder;
+                color: #353242;
+            }
+
+            .block2 {
+                width: 100%;
+                display: flex;
+                padding-inline: 2rem;
+                justify-content: space-between;
+                align-items: center;
+                gap: 2rem;
+
+                .buttonDiv {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 2rem;
+
+                    .add--card--button {
+                        height: 3.5rem;
+                        width: 15rem;
+                        border-radius: 1.75rem;
+                        border: none;
+                        background: linear-gradient(to bottom right, #3a0ca3, #3f37c9, #4361ee, #4895ef);
+                        color: White;
+                        font-size: 1.8rem;
+                        font-weight: bold;
+                    }
+                }
+
+
+            }
+
+            .block3 {
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                padding-inline: 2rem;
+                overflow-y: hidden;
+
+                .block3--body {
+                    width: 100%;
+                    display: grid;
+                    justify-content: center;
+                    grid-template-columns: repeat(auto-fit, 40rem);
+                    gap: 2rem;
+                    overflow-y: scroll;
+                    padding-block: 2rem;
+
+                }
+
+                .block3--body::-webkit-scrollbar {
+                    width: 1.5rem;
+                    /* background: transparent; */
+                }
+
+                .block3--body::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+
+                .block3--body::-webkit-scrollbar-thumb {
+                    background: rgba(0, 0, 0, 0.1);
+                    border-radius: 2rem;
+                }
+
+                .block3--body::-webkit-scrollbar-thumb:active {
+                    background: rgba(0, 0, 0, 0.5);
+                    /* border-radius: .5rem; */
+                }
+
+
+                .card {
+                    background: #e9e7fd;
+                    /* height: ; */
+                    height: 25rem;
+                    /* width: 40rem; */
+                    border-radius: 2rem;
+                    border: none;
+                    box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, 0.2);
+                    display: flex;
+                    justify-content: space-between;
+                    /* align-items: ; */
+                    gap: 1rem;
+                    text-align: center;
+                    padding: 2rem;
+                    position: relative;
+                    transition: 0.3s;
+
+                    .line--heading {
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 1.8rem;
+                        font-weight: bold;
+                        color: #8a8992;
+
+                        .dots {
+                            color: #353242;
+                            font-size: 2.2rem;
+                        }
+                    }
+
+                    .line--title {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        /* height: 10rem; */
+
+                        .title {
+                            font-size: 2.5rem;
+                            font-weight: bolder;
+                            color: #353242;
+                        }
+
+                        .counts {
+                            font-size: 1.5rem;
+                        }
+
+                    }
+
+                    .line--buttons {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: end;
+                        height: 5rem;
+
+                        .edit--button {
+                            height: 3rem;
+                            width: 12rem;
+                            border-radius: 1.5rem;
+                            border: none;
+                            background: rgba(255, 255, 255, 0.7);
+                            color: #4f3ff0;
+                            font-size: 1.4rem;
+                            font-weight: bolder;
+                            transition: .2s;
+                        }
+
+                        .edit--button:hover {
+                            border: .2rem solid #4f3ff0;
+                            transform: scale(1.05);
+                        }
+                    }
+                }
+
+                .card:hover {
+                    transform: scale(1.03);
+                    box-shadow: .8rem .8rem .8rem rgba(0, 0, 0, 0.2);
+                }
+
+            }
+        }
+    }
 
 }
 
@@ -439,7 +688,7 @@ html {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .sign-panels input[type="checkbox"]+label {
         width: 100%;
     }
@@ -450,6 +699,49 @@ html {
 
     .title span {
         font-size: 36px;
+    }
+
+    .admin--dashboard--main {
+        .dashboard--body {
+            .card--holder--body {
+
+                .block1 {
+                    font-size: 1.8rem;
+                }
+
+                .block2 {
+                    /* height: 8rem; */
+                    flex-direction: column;
+                    /* justify-content: flex-start; */
+                    align-items: flex-end;
+
+                    .buttonDiv {
+                        .add--card--button {
+                            font-size: 1.6rem;
+                            width: 12rem;
+                        }
+                    }
+
+                }
+
+                .block3 {
+                    .block3--body {
+                        /* display: grid; */
+                        grid-template-columns: repeat(auto-fit, minmax(25rem, 40rem));
+                    }
+
+                    .card {
+
+
+                        .line--title {
+                            .title {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
 }
