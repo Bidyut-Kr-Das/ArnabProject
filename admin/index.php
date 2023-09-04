@@ -1,8 +1,8 @@
 <?php
 include("header.php");
 if (isset($_REQUEST['mode'])) {
-  $username = $_REQUEST['username'];
-  $password = md5($_REQUEST['password']);
+  $username = $_REQUEST['username']; //admin
+  $password = md5($_REQUEST['password']); //admin
   $query = "SELECT * FROM `logindata` WHERE `username`='$username' ";
   $row = mysqli_query($connection, $query);
   if (mysqli_num_rows($row) == 0) {
@@ -14,6 +14,7 @@ if (isset($_REQUEST['mode'])) {
       @header("location:index.php?msg=Incorrect Password!!");
     } else {
       session_start();
+      // $admin = $rowarr['name'];
       $_SESSION['admin'] = $rowarr['name'];
       @header("location:dashboard.php?msg=Successfully logged in");
     }
